@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinta.AutoScaler", "Pinta.AutoScaler\Pinta.AutoScaler.csproj", "{514435FD-619C-4017-BBF4-A9FA42085B69}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PBSPro.AutoScaling", "PBSPro.AutoScaling\PBSPro.AutoScaling.pyproj", "{528A14C0-4325-46F4-B734-0E7346A27447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinta.AutoScaling.Functions", "Pinta.AutoScaling.Functions\Pinta.AutoScaling.Functions.csproj", "{4C9E4A45-000F-436B-BA21-B2A7A087D0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinta.AutoScaling.Interfaces", "Pinta.AutoScaling.Interfaces\Pinta.AutoScaling.Interfaces.csproj", "{1E37947E-0309-4B00-9CCA-4923B00F0DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinta.AutoScaling.LoadWatchers", "Pinta.AutoScaling.LoadWatchers\Pinta.AutoScaling.LoadWatchers.csproj", "{5B918BC2-8E2E-422D-A02B-2A71524521F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinta.AutoScaling.Models", "Pinta.AutoScaling.Models\Pinta.AutoScaling.Models.csproj", "{A1C7EAA8-EBDE-4FE5-97CD-0861A9026D45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{514435FD-619C-4017-BBF4-A9FA42085B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514435FD-619C-4017-BBF4-A9FA42085B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514435FD-619C-4017-BBF4-A9FA42085B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514435FD-619C-4017-BBF4-A9FA42085B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528A14C0-4325-46F4-B734-0E7346A27447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528A14C0-4325-46F4-B734-0E7346A27447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9E4A45-000F-436B-BA21-B2A7A087D0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9E4A45-000F-436B-BA21-B2A7A087D0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9E4A45-000F-436B-BA21-B2A7A087D0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9E4A45-000F-436B-BA21-B2A7A087D0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E37947E-0309-4B00-9CCA-4923B00F0DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E37947E-0309-4B00-9CCA-4923B00F0DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E37947E-0309-4B00-9CCA-4923B00F0DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E37947E-0309-4B00-9CCA-4923B00F0DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B918BC2-8E2E-422D-A02B-2A71524521F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B918BC2-8E2E-422D-A02B-2A71524521F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B918BC2-8E2E-422D-A02B-2A71524521F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B918BC2-8E2E-422D-A02B-2A71524521F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C7EAA8-EBDE-4FE5-97CD-0861A9026D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C7EAA8-EBDE-4FE5-97CD-0861A9026D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C7EAA8-EBDE-4FE5-97CD-0861A9026D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C7EAA8-EBDE-4FE5-97CD-0861A9026D45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

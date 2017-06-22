@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PBSPro.AutoScaling/__pycache__
+/PBSPro.AutoScaling/autoscaling.log
+/Pinta.AutoScaler/bin
+/Pinta.AutoScaler/obj
+/Pinta.AutoScaling.Functions/bin
+/Pinta.AutoScaling.Functions/obj
+/Pinta.AutoScaling.Functions/Properties/PublishProfiles
+/Pinta.AutoScaling.Interfaces/bin
+/Pinta.AutoScaling.Interfaces/obj
+/Pinta.AutoScaling.LoadWatchers/bin
+/Pinta.AutoScaling.LoadWatchers/obj
+/Pinta.AutoScaling.Models/bin
+/Pinta.AutoScaling.Models/obj
+/Pinta.AutoScaling.Functions/appsettings.json
