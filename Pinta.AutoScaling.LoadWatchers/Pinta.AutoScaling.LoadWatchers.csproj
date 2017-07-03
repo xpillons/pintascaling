@@ -56,10 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Pinta.DAL\Pinta.DAL.csproj">
-      <Project>{d8b4dd21-1a3e-4e7e-a170-2d2e74f7ff9b}</Project>
-      <Name>Pinta.DAL</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Pinta.AutoScaling.Interfaces\Pinta.AutoScaling.Interfaces.csproj">
       <Project>{1e37947e-0309-4b00-9cca-4923b00f0de3}</Project>
       <Name>Pinta.AutoScaling.Interfaces</Name>

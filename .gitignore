@@ -16,3 +16,5 @@
 /Pinta.AutoScaling.Models/bin
 /Pinta.AutoScaling.Models/obj
 /Pinta.AutoScaling.Functions/appsettings.json
+/packages
+/.vs
