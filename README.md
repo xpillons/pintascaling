@@ -52,8 +52,7 @@ The document format is the following one :
     "Type": "pools",
     "SubscriptionId": "your_subscription_id",
     "TenantId": "your_tenant_id",
-    "ClientSecret": "your_secret",
-    "ClientId": "your_client_id",
+    "ClientSecret": "your_secret",    "ClientId": "your_client_id",
     "RgVmssName": [
       "RG1,VMSSA",
       "RG1,VMSSB",
@@ -107,6 +106,7 @@ A sample implementation for PBS Pro is provided in this repo, this agent is base
     set queue pinta00 queue_type=e
     set queue pinta00 started=true
     set queue pinta00 enabled=true
+    
 
 ## Setup
 * copy all the .py files somewhere on the PBS Pro job scheduler machine
