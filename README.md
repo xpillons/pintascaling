@@ -100,6 +100,8 @@ A sample implementation for PBS Pro is provided in this repo, this agent is base
 * azure-storage python package : pip install azure-storage
 * Create one queue per VM Scale set, as this is the logical mapping
 
+Below are the PBS commands to add a queue and enable it
+
     qmgr create queue pinta00 set queue pinta00 queue_type=e set queue pinta00 started=true set queue pinta00 enabled=true
 
 ## Setup
