@@ -17,7 +17,7 @@ The overall component flow is this one :
 * Based on the load __VM instances__ in the target VM scalesets are __started__ or __stopped__
 * on the resource manager side (here an __HPC Job Scheduler__ ), an agent is monitoring the load and usage of __VM instances__ and update their statuses into the shared __Cosmos DB__ store.
 
-![architecture](Archi.PNG)
+![architecture](archi.PNG)
 
 # Requirements
 * [Create](https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet#create-a-database-account) a Cosmos DB account, a collection will be added automatically later
