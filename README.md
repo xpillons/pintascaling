@@ -96,10 +96,10 @@ One Cosmos DB document is created in the ClusterLoad collection for each node. T
 A sample implementation for PBS Pro is provided in this repo, this agent is based on Python and can be easily cloned for other schedulers if needed.
 
 ## Requirements
- * Python 2.7.x or 3.5.x
- * pydocumentdb python package : pip install pydocumentdb
- * azure-storage python package : pip install azure-storage
- * Create one queue per VM Scale set, as this is the logical mapping
+* Python 2.7.x or 3.5.x
+* pydocumentdb python package : pip install pydocumentdb
+* azure-storage python package : pip install azure-storage
+* Create one queue per VM Scale set, as this is the logical mapping
 
 
     qmgr
