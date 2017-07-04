@@ -48,17 +48,19 @@ The function reads the pools of VM scaleset to monitor from the Cosmos DB __Clus
 The document format is the following one :
 
     {
-    "id": "unique_id",
-   "Type": "pools",
-    "SubscriptionId": "your_subscription_id",
-    "TenantId": "your_tenant_id",
-    "ClientSecret": "your_secret",    "ClientId": "your_client_id",
-    "RgVmssName": [
-      "RG1,VMSSA",
-      "RG1,VMSSB",
-      "RG2,VMSSA"
-       ]
+      "id": "unique_id",
+      "Type": "pools",
+      "SubscriptionId": "your_subscription_id",
+      "TenantId": "your_tenant_id",
+      "ClientSecret": "your_secret",    
+      "ClientId": "your_client_id",
+      "RgVmssName": [
+        "RG1,VMSSA",
+        "RG1,VMSSB",
+        "RG2,VMSSA"
+         ]
     }
+
 
 > The scaling logic implemented in the function is this one. For each VM Scaleset monitored, retrieve the number of VMs required by jobs, if any are missing, try to start the required VMs, up to the Scaleset quota. If VMs needs to be stopped, only those idle from jobs are stopped.
 
