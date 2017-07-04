@@ -1,10 +1,10 @@
 Table of Contents
 =================
-* [Autoscaling VM Scale Set by Instance](Autoscaling VM Scale Set by Instance)
-* [Deployment](Deployment)
-* [The PintaScaler Function](The PintaScaler Function)
-* [Updating the load](Updating the load)
-* [PBS Pro agent](PBS Pro agent)
+* [Autoscaling VM Scale Set by Instance](autoscaling-vm-scale-set-by-instance)
+* [Deployment](deployment)
+* [The PintaScaler Function](the-pintascaler-function)
+* [Updating the load](updating-the-load)
+* [PBS Pro agent](pbs-pro-agent)
 
 
 # Autoscaling VM Scale Set by Instance
