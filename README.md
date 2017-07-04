@@ -115,7 +115,7 @@ A sample implementation for PBS Pro is provided in this repo, this agent is base
 
 A log file named autoscaling.log with trace like these ones :
 
-    2017-07-04 14:35:33,101 | INFO | root | processing queue pinta00
+	2017-07-04 14:35:33,101 | INFO | root | processing queue pinta00
     2017-07-04 14:35:33,102 | INFO | root | cleaning jobs
     2017-07-04 14:35:33,102 | DEBUG | root | select * from ClusterLoad l where l.Type='jobs' and l.QueueName='pinta00'
     2017-07-04 14:35:33,282 | INFO | root | 0 jobs deleted
