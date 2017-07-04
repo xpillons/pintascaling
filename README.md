@@ -102,7 +102,11 @@ A sample implementation for PBS Pro is provided in this repo, this agent is base
 
 Below are the PBS commands to add a queue and enable it
 
-    qmgr create queue pinta00 set queue pinta00 queue_type=e set queue pinta00 started=true set queue pinta00 enabled=true
+    qmgr
+    create queue pinta00
+    set queue pinta00 queue_type=e
+    set queue pinta00 started=true
+    set queue pinta00 enabled=true
 
 ## Setup
 * copy all the .py files somewhere on the PBS Pro job scheduler machine
