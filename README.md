@@ -100,6 +100,13 @@ A sample implementation for PBS Pro is provided in this repo, this agent is base
 * azure-storage python package : pip install azure-storage
 * Create one queue per VM Scale set, as this is the logical mapping
 
+
+    qmgr
+    create queue pinta00
+    set queue pinta00 queue_type=e
+    set queue pinta00 started=true
+    set queue pinta00 enabled=true
+
 ## Setup
 * copy all the .py files somewhere on the PBS Pro job scheduler machine
 * update the config.py file with your values
@@ -107,7 +114,7 @@ A sample implementation for PBS Pro is provided in this repo, this agent is base
 
 A log file named autoscaling.log with trace like these ones :
 
-	2017-07-04 14:35:33,101 | INFO | root | processing queue pinta00
+    2017-07-04 14:35:33,101 | INFO | root | processing queue pinta00
     2017-07-04 14:35:33,102 | INFO | root | cleaning jobs
     2017-07-04 14:35:33,102 | DEBUG | root | select * from ClusterLoad l where l.Type='jobs' and l.QueueName='pinta00'
     2017-07-04 14:35:33,282 | INFO | root | 0 jobs deleted
